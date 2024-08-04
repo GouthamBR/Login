@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./FP_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+form{
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+h1{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+ 
+input, button{
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+}
+
+.Login{
+    padding: 15px;
+    margin: 5px 10px;
+    color: white;
+    font-size: small;
+}
+
+.Login a {
+    text-decoration: none;
+    color: white;
+}
+
+
+form>div{
+    padding: 10px;
+    margin: 10px;
+}
+
+button{
+    cursor: pointer;
+}
